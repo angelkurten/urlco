@@ -38,7 +38,7 @@ return [
     'twitter' =>[
         'client_id'     => 'bAbQMrXXCGjv3PT42koW7C4MP',
         'client_secret' => 'WYP2uegASry4VYnro6sOmdWHLLy6rmDWhwzL9jhwcUPie14q6u',
-        'redirect'      => 'http://saveurl.app/auth/twitter/callback'
+        'redirect'      => 'http://url.app/auth/twitter/callback'
     ]
 
 ];

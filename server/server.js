@@ -3,7 +3,10 @@ var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var redis = require('redis');
 
-server.listen(8890, '192.168.10.10');
+server.listen(8890, '192.168.10.10', function () {
+    console.log('Server RUN')
+});
+
 io.on('connection', function (socket) {
 
     console.log("Client connected");

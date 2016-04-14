@@ -47,7 +47,7 @@
             <!-- Info Content -->
             <table class="table table-borderless table-striped">
                 <tbody>
-                    <iframe src="http://saveurl.app/live/{{$user->id}}" width="100%" height="390px" frameborder="0"></iframe>
+                    <iframe src="http://url.app/live/{{$user->id}}" width="100%" height="390px" frameborder="0"></iframe>
                 </tbody>
             </table>
             <!-- END Info Content -->
